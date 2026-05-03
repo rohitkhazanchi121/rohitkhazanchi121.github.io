@@ -83,10 +83,10 @@
     position: relative; flex-shrink: 0;
   }
   .profile-avatar {
-    width: 96px; height: 96px; border-radius: 50%;
+    width: 280px; height: 280px; border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--surface);
-    box-shadow: 0 0 0 2px var(--accent), 0 8px 24px rgba(29,158,117,0.15);
+    box-shadow: 0 0 0 0px var(--accent), 0 8px 24px rgba(29,158,117,0.15);
     display: block;
   }
   /* Fallback avatar if no image */
@@ -379,16 +379,18 @@
 
 <!-- PROFILE BANNER -->
 <div class="profile-banner">
-  <img src="photo.jpg" alt="RK" class="profile-avatar"/>
+  
   <div class="profile-info">
     <div class="profile-fullname">Rohit Khazanchi</div>
     <div class="profile-tagline">Data Engineer · AI Workflow Builder · Vancouver, BC</div>
-    <div class="profile-socials">
+    
+  </div>
+  <img src="photo.jpg" alt="RK" class="profile-avatar"/>
+  <div class="profile-socials">
       <a class="social-pill" href="https://github.com/rohitkhazanchi121" target="_blank">⬡ GitHub</a>
       <a class="social-pill" href="https://linkedin.com/in/rohit-khazanchi/" target="_blank">in LinkedIn</a>
       <a class="social-pill" href="mailto:rohitkhazanchi121@gmail.com">✉ Email</a>
     </div>
-  </div>
 </div>
 
 <!-- HERO -->
